@@ -24,7 +24,7 @@
   </parent>
   <groupId>sungpeo</groupId>
   <artifactId>reload4j-extras</artifactId>
-  <version>1.2.22-SNAPSHOT</version>
+  <version>1.2.22</version>
   <name>reload4j-extras</name>
   <description>
       Forked from Apache-extras to support reload4j
