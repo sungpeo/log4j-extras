@@ -47,6 +47,7 @@ public class XSLTLayoutTestCase extends TestCase {
 
   public void setUp() {
     root = Logger.getRootLogger();
+    root.removeAllAppenders();
     logger = Logger.getLogger(XSLTLayoutTestCase.class);
     MDC.clear();
   }
