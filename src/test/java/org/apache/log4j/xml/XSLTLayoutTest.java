@@ -68,6 +68,11 @@ public class XSLTLayoutTest extends LayoutTest {
     super(testName, "text/plain", false, null, null);
   }
 
+  @Override
+  public void setUp() {
+    MDC.clear();
+  }
+
   /**
    * @{inheritDoc}
    */
