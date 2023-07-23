@@ -19,7 +19,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>io.github.sungpeo</groupId>
   <artifactId>reload4j-extras</artifactId>
-  <version>1.2.22-SNAPSHOT</version>
+  <version>1.2.22</version>
   <packaging>jar</packaging>
   <name>reload4j-extras</name>
   <description>Forked from Apache-extras to support reload4j</description>
@@ -237,13 +237,16 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-javadoc-plugin</artifactId>
-        <version>2.9.1</version>
+        <version>3.5.0</version>
         <executions>
           <execution>
             <id>attach-javadocs</id>
             <goals>
               <goal>jar</goal>
             </goals>
+            <configuration>
+              <doclint>none</doclint>
+            </configuration>
           </execution>
         </executions>
       </plugin>
